@@ -1,0 +1,41 @@
+{
+  "id": "org.unified.addon",
+  "version": "1.0.0",
+  "name": "Unified Stremio Addon",
+  "description": "Streams from RARBG, ThePirateBay, KAT, DebridSearch, and Sktorrent combined.",
+  "logo": "https://stremio.com/logo-small.png",
+  "resources": [
+    "stream",
+    "catalog",
+    "meta"
+  ],
+  "types": [
+    "movie",
+    "series"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "rarbg_catalog"
+    },
+    {
+      "type": "movie",
+      "id": "tpb_catalog"
+    },
+    {
+      "type": "movie",
+      "id": "kat_catalog"
+    },
+    {
+      "type": "movie",
+      "id": "debrid_catalog"
+    },
+    {
+      "type": "movie",
+      "id": "sktorrent_catalog"
+    }
+  ],
+  "idPrefixes": [
+    "tt"
+  ]
+}
